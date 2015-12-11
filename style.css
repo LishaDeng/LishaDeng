@@ -1,0 +1,332 @@
+
+@import url(http://fonts.googleapis.com/css?family=Meddon);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ccc;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  box-sizing: border-box;
+  background-color: #373948;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 0px 0px 0px 30px;
+}
+
+header h1 {
+  float: left;
+  margin: 5px 0px;
+  color: white;
+  font-family: 'Meddon', cursive;
+}
+
+header nav ul {
+  height: 70px;
+  float: right;
+}
+
+header nav ul li {
+  height: 70px;
+  display: inline-block;
+}
+
+header nav ul li a {
+  height: 30px;
+  display: block;
+  padding: 17px 20px;
+  color: white;
+  font-size: 2.2em;
+  text-decoration: none;
+  border-top: 3px solid #373948;
+  border-bottom: 3px solid #373948;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+header nav ul li a:hover{
+  color: #373948;
+}
+
+header nav ul li a.active{
+  height: 33px;
+  border-bottom: none;
+}
+
+header nav ul li a.link-1 { background-color: #00c0e4; }
+header nav ul li a.link-2 { background-color: #e6567a; }
+header nav ul li a.link-3 { background-color: #eac14d; }
+header nav ul li a.link-4 { background-color: #5bd999; }
+
+
+section {
+  width: 100%;
+  height: 800px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+}
+
+section#home { background-color: #00c0e4; margin-top: 70px;}
+section#AbouMe { background-color: #eac14d; }
+section#MyPortfolio { background-color: #e6567a; }
+section#contact-me { background-color: #5bd999; }
+
+section h2 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  margin: 0px;
+}
+
+section .container{
+  margin: 0px auto;
+  text-align: center;
+  width: 100%;
+  height: 370px;
+  margin-top: 20px;
+}
+
+section .illustration1 {
+  background-image: url('image/IMG_1026.jpg');
+  background-size:cover;
+  width: 30%;
+  height: 365px;
+  border: 3px solid white;
+  float: left;
+}
+
+section .illustration2 {
+  background-image: url('image/011.jpg');
+  background-size:cover;
+  width: 30%;
+  height: 365px;
+  border: 3px solid white;
+  left: 34%;
+  margin-left:85px;
+  float: left;
+}
+
+section .illustration3 {
+  background-image: url('image/contact-me.jpg');
+  background-size:cover;
+  width: 30%;
+  height: 365px;
+  border: 3px solid white;
+  float: right;
+}
+
+.wrap {
+  padding: 50px 0 0 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrap .image1 {
+  background-image: url('image/01.jpg');
+  background-size:cover;
+  float: left;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image1:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image2 {
+  background-image: url('image/04.jpg');
+  background-size:cover;
+  float: left;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image2:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image3 {
+  background-image: url('image/10.jpg');
+  background-size:cover;
+  float: left;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image3:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image4 {
+  background-image: url('image/12.jpg');
+  background-size:cover;
+  float: left;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image4:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image5 {
+  background-image: url('image/18.jpg');
+  background-size:cover;
+  float: left;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image5:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image6 {
+  background-image: url('image/22.jpg');
+  background-size:cover;
+  float: left;
+  margin-top: 50px;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image6:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image7 {
+  background-image: url('image/27.jpg');
+  background-size:cover;
+  float: left;
+  margin-top: 50px;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image7:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image8 {
+  background-image: url('image/28.jpg');
+  background-size:cover;
+  float: left;
+  margin-top: 50px;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image8:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image9 {
+  background-image: url('image/30.jpg');
+  background-size:cover;
+  float: left;
+  margin-top: 50px;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image9:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.wrap .image10 {
+  background-image: url('image/34.jpg');
+  background-size:cover;
+  float: left;
+  margin-top: 50px;
+  width: 335px;
+  height: 237px;
+  line-height: 80px;
+  text-align: center;
+  border: 14px solid #e6567a;
+}
+
+.wrap .image10:hover {
+  z-index: 1;
+  border-color: #fff;
+}
+
+.MyIntroduce{
+  background-image: url('image/02.jpg');
+  background-size: cover;
+  color: #262626;
+  width: 100%;
+  height: 690px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.me{
+  background-image: url('image/me.png');
+  background-size:cover;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin: 0px auto
+}
+
+section p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  text-align: center;
+}
